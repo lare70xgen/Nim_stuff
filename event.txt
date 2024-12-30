@@ -1,0 +1,19 @@
+#-------------------------------------------------------------#
+# Event Type            Description
+#-------------------------------------------------------------#
+# access                Access to the contents of a file or directory
+# modify                The contents of the file or directory are written
+# attrib                The attributes of the file or directory are modified
+# close_write           File or directory is opened in writable mode and then closed
+# close_nowrite         File or directory is closed after being opened in read-only mode
+# close                 Regardless of the read/write mode, the file or directory is closed
+# open                  File or directory is opened
+# moved_to              A file or directory is moved to the monitored directory
+# moved_from            A file or directory is moved from the monitored directory
+# move                  There are files or directories that are moved to or removed from the monitoring dir>
+# move_self             The monitored file or directory has been moved
+# create                There are files or directories created in the monitored directory
+# delete                A file or directory in the monitored directory is deleted
+# delete_self           The file or directory has been deleted
+# unmount               File system containing unmounted files or directories
+#-------------------------------------------------------------#
